@@ -42,7 +42,7 @@ const instrumento5 = new Instrumento('', '', '', 0, '');
 const instrumento6 = new Instrumento('', '', '', 0, '');
 
 
-/* instrumento4.cargarTipoInstrumento(prompt('Ingrese el tipo de instrumento'));
+instrumento4.cargarTipoInstrumento(prompt('Ingrese el tipo de instrumento'));
 instrumento4.cargarMarca(prompt('Ingrese la marca del instrumento'));
 instrumento4.cargarModelo(prompt('Ingrese el modelo del instrumento'));
 instrumento4.cargarPrecio(parseFloat(prompt('Ingrese el precio del instrumento')));
@@ -64,7 +64,7 @@ instrumento6.cargarModelo(prompt('Ingrese el modelo del instrumento'));
 instrumento6.cargarPrecio(parseFloat(prompt('Ingrese el precio del instrumento')));
 instrumento6.cargarCodigoId(prompt('Ingrese el codigo del instrumento'));
 
-console.log(instrumento6); */
+console.log(instrumento6);
 
 let precioNeto = 0; 
 let precioConIva = 0;
